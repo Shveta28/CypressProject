@@ -4,12 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "openCypress":".//node_modules//.bin//cypress open",
+    "open":".//node_modules//.bin//cypress open",
     "test": ".//node_modules//.bin//cypress run",
     "headTest":"npm run test -- --headed",
-    "chromeTest":"npm run test-- --browser chrome",
-    "recordDashboardTest":"npm run test-- --record --key 659a588c-472e-4d69-8a13-54d9b7ff67f6 --reporter mochawesome"
-
+    "chromeTest":"npm run test -- --browser chrome",
+    "recordDashboardTest":"npm run test -- --record --key 659a588c-472e-4d69-8a13-54d9b7ff67f6 --reporter mochawesome"
   },
   "author": "ShvetaJhamb",
   "license": "ISC",
